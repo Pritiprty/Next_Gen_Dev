@@ -1,0 +1,68 @@
+*{
+    margin:5px;
+    padding:0px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  justify-items: center;
+  margin-top: 10%;
+  margin-right: 30%;
+  background-image: url("https://img.freepik.com/free-photo/blue-blank-notepad-with-copy-space_23-2148475334.jpg?w=740&t=st=1721717222~exp=1721717822~hmac=fa79645df59216908af5d05d4a6a39548f4054580654734f09ae08481be00a4d"); /* Replace with your image URL */
+  background-size: cover; /* Cover the entire body */
+  background-repeat: no-repeat; /* Prevent repetition */
+
+}
+
+.calculator {
+  width: 350px;
+  height: 410px;
+  margin: 0 auto;
+  background-color: #0a98f7;
+  border-radius: 15px;
+  padding: 20px;
+  
+  border: 1px solid rgb(28, 195, 247);
+  box-shadow: 5px 5px 10px rgba(38, 106, 233, 0.5);
+
+}
+
+.display {
+  background-color: #535353;
+  padding: 15px;
+  text-align: right;
+  font-size: 35px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  color: #eee;
+  border-style:groove ;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 7px;
+   transition: background-color 0.5s ease; 
+  color: #eee;
+  
+}
+
+.button {
+  background-color: #0e6bf7;
+  padding: 8px;
+  text-align: center;
+  font-size: 38px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+  color: #f5ecec;
+  border: 1px  #ccc;
+}
+
+.button:hover {
+  background-color: #2185f8;
+}
+
+.operator {
+  background-color: #0e6bf7;
+}
